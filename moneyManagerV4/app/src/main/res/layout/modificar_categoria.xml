@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/nombreCategoria"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgViewCategoria"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/nombreCategoria"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/txtSaldoLimiteActual"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/imgViewCategoria"
+        android:layout_alignStart="@+id/imgViewCategoria"
+        android:paddingLeft="20dp"
+        android:paddingBottom="30px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Saldo Limite:"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/txtSaldoLimiteActual"
+        android:paddingLeft="20dp"
+        android:paddingBottom="30px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Saldo Limite:"
+        android:id="@+id/textView8"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/nombreCategoria" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtSaldoLimite"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Categoria"
+        android:id="@+id/btnEditar"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/txtSaldoLimite"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

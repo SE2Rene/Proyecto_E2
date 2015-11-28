@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">moneyManagerV4</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Configuraciones</string>
+
+    <string name="strNom">Nombre(s)</string>
+    <string name="strApe">Apellido(s)</string>
+    <string name="strTel">Telefono</string>
+    <string name="strCorreo">Correo Electronico</string>
+    <string name="strUsua">Usuario</string>
+    <string name="strContra">Contraseña</string>
+    <string name="strGuardar">Guardar</string>
+    <string name="strEntrar">Entrar</string>
+    <string name="strNombre">Nombre</string>
+    <string name="strPrecio">Precio $</string>
+    <string name="strCons">Consola</string>
+    <string name="strBuscar">Buscar</string>
+    <string name="strContacto">Contacto</string>
+    <string name="strSeparar">Reservar</string>
+    <string name="strDesc">Descripción</string>
+    <string name="strEntrega">Lugar de entrega</string>
+    <string name="strStatus">Status</string>
+    <string name="strPreguntas">Preguntas</string>
+    <string name="strIS">Iniciar Sesion</string>
+    <string name="strMenu">Menu Principal</string>
+    <string name="strAddVJ">Agregar VideoJuego</string>
+    <string name="strAddUser">Crear Usuario</string>
+    <string name="strVJ">VideoJuego</string>
+    <string name="strEditVJ">Editar VideoJuego</string>
+    <string name="strVJS">Mis VideoJuegos</string>
+    <string name="strVer">Ver</string>
+    <string name="strReg">Registrarse</string>
+    <string name="strncs">No cerrar sesión</string>
+    <string name="strcs">Cerrar sesión</string>
+    <string name="strress">Aún no tienes cuenta?</string>
+    <string name="strBorrar">Borrar</string>
+    <string name="str_alert_memory_title">¿Seguro que desea borrar este videojuego?</string>
+    <string name="str_alert_memory_btnInternal">Si</string>
+    <string name="str_alert_memory_btnExternal">No</string>
+
+    <string name="str_btn_config_save">Guardar</string>
+    <string name="str_lbl_config_lang">Lenguaje</string>
+    <string name="str_lbl_config_colors">Color de fondo</string>
+
+    <string-array name="str_array_config_lang">
+        <item>Español</item>
+        <item>Ingles</item>
+    </string-array>
+
+    <string-array name="str_array_config_colors">
+        <item>Default</item>
+        <item>Verde</item>
+        <item>Rojo</item>
+    </string-array>
+
+    <string-array name="str_array_sectionsTitle">
+        <item>Categorias</item>
+        <item>Ingresar Gasto</item>
+        <item>Registrar Ingreso</item>
+        <item>Estadistica Gastos</item>
+        <item>Inicio</item>
+    </string-array>
+    <string name="title_activity_detalle">detalle</string>
+
+    <string name="title_activity_main2">Inicio de Sesión</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
